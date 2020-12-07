@@ -33,18 +33,7 @@
 <tittle><center><b><i><u>QUALIFICATION DETAILS</u></center></b></i></tittle>
 <br>
 <br>
-<style>
-table,th,td
-{
-border:1px solid black;
-border-collapse:collapse;
-}
-th,td
-{
-padding:10px;
-text-align:left;
-}
-</style>
+
 </head>
 <body>
 <table align="center">
