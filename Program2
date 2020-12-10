@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>page within a page</title>
+<style>
+a
+{
+text-decoration:none;
+color:#0000FF;
+}
+h1
+{
+text-align:center;
+color:red;
+background-color:#000080;
+}
+font
+{
+color:#DE3163;
+size:50;
+}
+p
+{
+color:#800080;
+font-size:20px;
+}
+</style>
+</head>
+<body bgcolor="#999999">
+<h1><font>WEB TECHNOLOGY</font></h1>
+<center><img src="web.jpg" height="50%" width="65%"></img></center><br><br>
+<table align="center" border=1 style="color:#8A2BE2;border-collapse:collapse;">
+<tr>
+<th><a href="#Introduction">Home</a></th>
+<th><a href="#Client/Server Concept">Client/Server Concept</a></th>
+<th><a href="#Components Of Web">Components Of Web</a></th>
+<th><a href="#Types Of Web Content">Types Of Web Content</a></th>
+<th><a href="#Overview Of HTTP">Overview Of HTTP</a></th>
+<th><a href="#Dynamic Webpage">Dynamic Webpage</a></th>
+<th><a href="#Application Servers">Application Servers</a></th>
+<th><a href="#Web Security">Web Security</a></th>
+</tr>
+</table>
+<a name="Introduction"></a>
+<h1>Introduction To Web</h1>
+<center><img src="introduction.jpg" height="50%" width="65%"></img></center><br><br>
+<p>Internet is a global communication system that links together thousands of individual networks. It allows exchange of information between two or more computers on a network. Thus internet helps in transfer of messages through mail, chat, video & audio conference, etc.
+ It has become mandatory for day-to-day activities: bills payment, online shopping and surfing, tutoring, working, communicating with peers, etc.
+Web consists of billions of clients and server connected through wires and wireless networks. The web clients make requests to web server. 
+The web server receives the request, finds the resources and return the response to the client. When a server answers a request, it usually sends some type of content to the client. The client uses web browser to send request to the server. 
+The server often sends response to the browser with a set of instructions written in HTML(HyperText Markup Language). All browsers know how to display HTML page to the client.
+</p>
+<a name="Client/Server Concept"></a>
+<h1>Client Server Concept</h1>
+<center><img src="clientserver.png" height="60%" width="65%"></img></center><br><br>
+<p>Essentially, a client is a consumer of services, and a server provides services. Thus the term 'client' could be more accurately defined as 'service requester', and server as 'service provider', with the requester 'calling' the provider for the required service.
+A computer network in which one centralized, powerful computer (called the server) is a hub to which many less powerful personal computers or workstations (called clients) are connected. The clients run programs and access data that are stored on the server. Compare peer-to-peer network.
+</p>
+<a name="Components Of Web"></a>
+<h1>Components Of Web Application</h1>
+<center><img src="components.jpg" height="60%" width="65%"></img></center><br><br>
+<p>Before we start, let�s make sure we�re on the same page regarding the key technical web-related terms. Namely, the two structural web app components any web app consists of � client and server sides.
+A client is a user-friendly representation of a web app�s functionality that a user interacts with. Written in HTML, JavaScript and CSS, it exists within the user�s web browser and doesn�t need any specific OS/device-related adjustments.
+To build a server side you need PHP, Java, .NET, Python, Ruby on Rails or Node.js development skills. This side usually consists of at least two more parts: web server with app logic (or the main control center) and database (storage of all persistent data). If you scale up this side, it means that you increase the number of web servers and databases to boost your web app�s performance and stability.
+</p>
+<a name="Types Of Web Content"></a>
+<h1>Types Of Web Content</h1>
+<center><img src="webcontent.jpg" height="60%" width="65%"></img></center><br><br>
+<p>Even though we may embed various protocols within web pages, the "web page" composed of "HTML" (or some variation) content is still the dominant way whereby we share content. And while there are many web pages with localized proprietary structure (most usually, business websites), many millions of websites abound that are structured according to a common core idea.
+<br>Blogs are a type of websites that contain mainly web pages authored in HTML (although the blogger may be completely unaware that the web pages are composed using HTML due to the blogging tool that may be in use). Millions of people use blogs online; a blog is now the new "home page", that is, a place where a persona can reveal personal information, and/or build a concept as to who this persona is. Even though a blog may be written for other purposes, such as promoting a business, the core of a blog is the fact that it is written by a "person" and that person reveals information from her/his perspective. Blogs have become a mighty weapon used by content marketers who desire to increase their site's traffic, as well as, rank in the search engine result pages (SERPs). Modern research from Technorati shows that blogs now outrank social networks for consumer influence (Technorati's 2013 Digital Influence Report data).
+Search engine sites are composed mainly of HTML content, but also has a typically structured approach to revealing information.<br> A Search Engine Results Page (SERP) displays a heading, usually the name of the search engine itself, and then a list of websites and their web addresses. The web addresses are listed by their order of relevance according to the search query. Searchers typically type in keywords or keyword phrases to find or search what they are looking for on the web.
+<br>Discussion boards are sites composed of "textual" content organized by HTML or some variation that can be viewed in a web browser.<br> The driving mechanism of a discussion board is the fact that users are registered and once registered can write posts. Often a discussion board is made up of posts asking some question to which other users may provide answers to those questions.
+<br>Ecommerce sites are primarily composed of textual material and embedded with graphics displaying a picture of the item(s) for sale. However, there are extremely few sites that are composed page-by-page using some variant of HTML. Generally, webpages are formed as they are being served from a database to a customer using a web browser. However, the user sees the mainly text document arriving as a webpage to be viewed in a web browser. Ecommerce sites are usually organized by the software we identify as a "shopping cart".
+</p>
+<a name="Overview Of HTTP"></a>
+<h1>Overview Of HTTP</h1>
+<center><img src="http.png" height="60%" width="65%"></img></center><br><br>
+<p>HTTP is a protocol which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance text, layout description, images, videos, scripts, and more.
+Designed in the early 1990s, HTTP is an extensible protocol which has evolved over time. It is an application layer protocol that is sent over TCP, or over a TLS-encrypted TCP connection, though any reliable transport protocol could theoretically be used. Due to its extensibility, it is used to not only fetch hypertext documents, but also images and videos or to post content to servers, like with HTML form results. HTTP can also be used to fetch parts of documents to update Web pages on demand.
+</p>
+<a name="Dynamic Webpage"></a>
+<h1>Generation Of Dynamic Webpage</h1>
+<center><img src="dynamic1.jpg" height="80%" width="65%"></img></center><br><br>
+<center><img src="dynamic2.png" height="60%" width="65%"></img></center><br><br>
+<p>Web pages that use server-side scripting are often created with the help of server-side languages such as PHP, Perl, ASP, ASP.NET, JSP, ColdFusion and other languages. These server-side languages typically use the Common Gateway Interface (CGI) to produce dynamic web pages.
+</p>
+<a name="Application Servers"></a>
+<h1>Application Servers</h1>
+<center><img src="applicationserver.png" height="60%" width="65%"></img></center><br><br>
+<p>An application server is a server that hosts applications.
+Application server frameworks are software frameworks for building application servers. An application server framework provides both facilities to create web applications and a server environment to run them.
+An application server framework contains a comprehensive service layer model. It includes a set of components accessible to the software developer through a standard API defined for the platform itself. For Web applications, these components usually run in the same environment as their web server, and their main job is to support the construction of dynamic pages. However, many application servers do more than generate web pages: they implement services such as clustering, fail-over, and load-balancing, so developers can focus on implementing the business logic.
+</p>
+<a name="Web Security"></a>
+<h1>Web Security</h1>
+<center><img src="websecurity.jpg" height="60%" width="65%"></img></center><br><br>
+<p>Web security is also known as �Cybersecurity�. It basically means protecting a website or web application by detecting, preventing and responding to cyber threats. Websites and web applications are just as prone to security breaches as physical homes, stores, and government locations.
+</p>
+</body>
+</html>
