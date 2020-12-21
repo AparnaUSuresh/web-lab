@@ -1,0 +1,92 @@
+<html>
+<head>
+    <style>
+        table
+        {
+        
+            border-collapse:collapse;
+            margin-left:auto;
+            margin-right:auto; 
+        }
+        tr,th,td
+        {
+            border:1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body bgcolor="lightblue">
+    <font color="red">
+    <marquee  
+      onmouseover="stop()"
+      onmouseout="start()"><h1>WELCOME TO FRESHERS WORLD!!!</h1>
+    </marquee></font>
+    <table align="center" border="4"cellspacing="<h2></h2>">
+    <tr>
+    <td colspan="3"><h4><center>Registration Form</h4></center></td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td colspan="2">
+        <input type="text"></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td colspan="2">
+        <select>
+            <option>SELECT</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td colspan="2"><input type="Password"></td>
+    </tr>
+    <tr>
+        <td>Re-enter Password</td>
+        <td colspan="2"><input type="Password"></td>
+    </tr>
+    <tr>
+        <td rowspan="5">Select your security question</td>
+        <tr><td colspan="2"><input type="radio" name="security">What is your pet name?</td>
+        <tr><td colspan="2"><input type="radio" name="security">Who is your best friend?</td> 
+        <tr><td colspan="2"><input type="radio" name="security">What is your favourite color?</td>
+        <tr><td colspan="2"><input type="radio" name="security">who is your favourite teacher?</td>
+    </tr>
+    <tr>
+        <td>Answer of security question
+        <td colspan="2"><input type="text"></td>
+        </td>
+    </tr>
+    <tr>
+        <td>Email id</td>
+        <td colspan="2"><input type="text"></td>
+    </tr>
+    <tr>
+        <td colsapn="2">Language Known
+        <td colspan="2"><input type="checkbox">Malayalam
+        <input type="checkbox">English
+        <input type="checkbox">Hindi</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Phone number</td>
+        <td><b><center>Home</center></b></td>
+        <td><b><center>Office</center></b></td>
+    </tr>
+    <tr>
+        <td><input type="text"></td>
+        <td colspan="2"><input type="text"></td>
+    </tr>
+    
+    <tr>
+        <td>UPLOAD CV</td>
+        <td colspan="2"><input type="file"></td>
+    </tr>
+    <tr>
+        <td><input type="reset"></td>
+        <td colspan="2"><input type="submit"></td>
+    </tr>
+</body>
