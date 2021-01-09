@@ -1,0 +1,85 @@
+<html>
+<head>
+<style>
+marquee
+{
+color:green;
+background-color:yellow; 
+border:solid 1px black;
+}
+</style>
+<link type="text/css"rel="stylesheet" href="s.css">  
+</head>
+<body>
+
+<marquee onmouseover="stop()" onmouseout="start()"behavior="alternate"><h1>WELCOME TO THE WORLD CSS</h1></marquee>
+<div id="second"></div>
+<img src="download (1).jfif"width="1520"height="350">
+<div class="right">
+<div class="mdiv">
+<marquee direction="up"speed="">
+<ul><h3><u>Properties of css</h3></u>
+
+<li>Display
+Display takes on many different values, but only 4 are most commonly used.</li>
+<li>Width and Height
+    Width and height properties are used closely with display:block and display:inline to set the width and height of HTML elements while creating a website. 
+    Common units units for Width and Height are:
+</li>
+<li>Margins are paddings are things that will definitely appear.
+    Knowing how these things work will be extremely beneficial when writing CSS.
+
+    Margins and Paddings dictate the spaces between elements on your website. 
+    They are very similar and have the same units as Width and Height mentioned above.
+
+    The only difference between margins and paddings is the area the exert control over. 
+    Margins affect the area outside of borders whereas paddings affect areas inside the border.
+    It is useful to refer to the box model below:
+</li>
+<li>Floats are one of the core elements in today’s website. 
+    If you see two columns of text side by side, a sidebar / content configuration like what you see on my blog if your browser window is above 800px, 
+    you have noticed floats in action. Another commonly used area for floats are navigation items.
+
+    In the nutshell, what float simply does it to position the edge of the targeted HTML content at the edge of one side of the parent container. 
+    Subsequent floats will then be placed at the edge of your first floated content. (depending on whether you float it left or right)
+</li>
+<li>Even though floats are immensely useful, they are sometimes a headache if they are not cleared properly.
+    In general, 2 kinds of problems may occur:
+</li>
+<li>Fonts in general refer to the appearance of text in your website. There are a few things to look out for. 
+    Like other properties, font has a shorthand. Do note that it is common to see the font shorthand declaration only once in the whole CSS file.
+    It is common to use the different properties at other times:
+</li>
+</ul>
+</div>
+
+</body>
+</html>
+
+
+
+#second
+{
+height:350x;
+width:1520x;
+border:solid 1px black;
+}
+.mdiv
+{
+border:solid 1px black;
+width:500;
+}
+.right
+{
+height:300x;
+width:1520x;
+background-color:violet;
+border:solid 1px black;
+}
+h3{
+color:black;
+}
+li
+{
+color:red;
+}
