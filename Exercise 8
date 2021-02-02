@@ -1,0 +1,96 @@
+<html>
+<head>
+</head>
+<style>
+table
+{
+background-color:lightblue;
+height:60%;
+width:40%;
+border:1px solid black;
+text-align:center;
+}
+body
+{
+background-color:pink;
+}
+</style>
+<script>
+function validateform()
+{
+var name=document.myform.name.value;
+var password=document.myform.password.value;
+var user=document.myform.user.value;
+var num=document.myform.num.value;
+
+   if(name==null||name=="")
+   {
+     alert("Name can't be blank");
+     return false;
+   }
+   if(num=="")
+   {
+    alert("Enter your Mobile number");
+    return false;
+   }
+   else if(isNaN(num))
+   {
+    alert("Enter a valid Mobile number");
+    return false;
+   }
+   else if(num.length!=10)
+   {
+    alert("Enter Moblie number with 10 digit");
+    return false;
+   }
+   if(user=="")
+   {
+    alert("Please enter user name");
+    return false;
+   }
+   if(password.length<6)
+   {
+    alert("Password must be at least 6 character long");
+    return false;
+   } 
+}
+
+function validateemail()  
+{  
+  var x=document.myform.email.value;  
+  var atposition=x.indexOf("@");  
+  var dotposition=x.lastIndexOf(".");  
+  if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length)
+  {  
+   alert("Please enter a valid e-mail address");  
+   return false;  
+  }  
+}  
+</script>
+<body><center> 
+      <form name="myform" onsubmit="return validateform(),validateemail()" method="get">
+<table>
+      <th><center><h2><b><u>REGISTRATION FORM</center></th></b></u></h2>
+<tr><th>
+      Name   :<input type="text" name="name">
+</tr></th>
+<tr><th>
+      E-mail  : <input type="text" name="email">
+</tr></th>
+<tr><th>  
+      Mobile No:<input type="text" name="num">
+</tr></th>
+<tr><th>
+      User name:<input type="text" name="user">
+</tr></th>
+<tr><th>
+      Password:<input type="password" name="password">
+</tr></th>
+<tr><th>
+<input type="submit" value="submit">
+</tr></th>
+</table>
+<br><br>
+</body>
+</center>
+</html>
