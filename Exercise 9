@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<input id="bcc" type="button" value="click me">
+<script>
+document.getElementById("bcc").addEventListener("click",colorchange);
+function colorchange()
+{
+var color='#'+Math.floor(Math.random()*16777215).toString(16);
+document.body.style.background=color;
+}
+</script>
+</body>
+</html>
