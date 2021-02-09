@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+<body bgcolor="peach">
+<img src="images.jpg"height="560"width="660"align="center"id="im"></img>
+
+<p id="img">EVENT LISTENER  
+</p>
+<script>
+document.getElementById("im").addEventListener("mouseout",myfun);
+document.getElementById("im").addEventListener("mouseover",myfun1);
+function myfun()
+{ 
+document.getElementById("im").src="images (1).jpg";
+}
+function myfun1()
+{
+document.getElementById("im").src="images.jpg";
+}
+document.getElementById("img").addEventListener("mouseover",myfuntxt);
+document.getElementById("img").addEventListener("mouseout",myfun1txt);
+function myfuntxt()
+{
+document.getElementById("img").innerHTML="This is addEventListener";
+}
+function myfun1txt()
+{
+document.getElementById("img").innerHTML="The addEventListener is the process of verifying that user input in a matches the specified for that input field.We have implemented a set of validation rules for our from in javascript";
+}
+
+</script>
+</body>
+</html>
+
